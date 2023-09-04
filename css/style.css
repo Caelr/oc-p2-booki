@@ -25,9 +25,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+
 ol, ul {
 	list-style: none;
 }
@@ -44,3 +42,34 @@ table {
 	border-spacing: 0;
 }
 
+/* fonts */
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway-Bold.woff2') format('woff2'),
+      url('fonts/Raleway-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway-Regular.woff2') format('woff2'),
+      url('/fonts/Raleway-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Base */
+html {
+  font-family: Raleway;
+  font-size: calc(100vw / 1440 * 10);
+}
+
+body {
+	line-height: 1;
+  font-size: 1.6rem;
+  max-inline-size: 1440px;
+  margin-inline: auto;
+}
