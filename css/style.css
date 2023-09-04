@@ -1,3 +1,11 @@
+/* Variables */
+
+:root {
+  --main-color: #0065FC;
+  --main-bg-color: #F2F2F2;
+  --filter-bg-color: #DEEBFF;
+}
+
 /* Reset ua styles */
 
 html, body, div, span, applet, object, iframe,
@@ -62,9 +70,32 @@ table {
 
 
 /* Base */
+
+/* Large desktop */
 html {
-  font-family: Raleway;
-  font-size: calc(100vw / 1440 * 10);
+  font-size: 62.5%;
+}
+
+
+/* Desktop */
+@media (1024px < width <= 1440px) {
+  html {
+    font-size: calc(100vw / 1440 * 10);
+  }
+}
+
+/* Tablet */
+@media (768px <= width <= 1024px) {
+  html {
+    font-size: calc(100vw / 1024 * 10);
+  }
+}
+
+/* Mobile */
+@media (width < 768px) {
+  html {
+    font-size: calc(100vw / 768px * 10);
+  }
 }
 
 body {
@@ -73,3 +104,7 @@ body {
   max-inline-size: 1440px;
   margin-inline: auto;
 }
+
+
+
+/* Header */
