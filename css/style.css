@@ -208,6 +208,10 @@ input[type="search"]::placeholder {
   border-radius: 0 15px 15px 0;
 }
 
+.home__search__button>svg {
+  display: none;
+}
+
 .home__filter{
   margin-block: 3.5rem;
   display: flex;
@@ -469,7 +473,7 @@ input[type="search"]::placeholder {
 }
 
 /* Tablet */
-@media (768px <= width <= 1024px) {
+@media (width <= 1024px) {
   html {
     font-size: calc(100vw / 1024 * 10);
   }
@@ -521,6 +525,22 @@ input[type="search"]::placeholder {
     font-size: calc(100vw / 375 * 10);
   }
 
+
+  .app{
+    padding-inline: 0;
+  }
+
+  .article {
+    margin-inline: 2rem;
+  }
+  .home__search {
+    margin-inline: 2rem;
+  }
+
+ .home__filter {
+  margin-inline: 2rem;
+ }
+
   .navigation{
     flex-direction: column;
     padding-inline: 0;
@@ -551,17 +571,93 @@ input[type="search"]::placeholder {
     width: calc(100% + 2rem);
   }
 
-  .app{
-    padding-inline: 2rem;
-  }
-  .article{
-    display: grid;
-    gap: 1rem;
-    margin-block-end: 3.5rem;
-  }
-  .article__title{
-    font-size: 2.2rem;
-    font-weight: bold;
+  .home__search__button {
+    font-size: 0;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-inline-start: -1rem;
   }
 
+
+
+  .home__search__button>svg {
+    display: block;
+  }
+
+  .home__search :is(input) {
+    width: 24.5rem;
+    text-align: left;
+
+  }
+
+  input[type="search"]::-webkit-search-clear-button {
+    appearance: none;
+  }
+
+  input[type="search"]::placeholder {
+    text-align: left;
+  }
+
+  .home__filter__wrapper {
+    flex-wrap: wrap;
+    font-size: 1.4rem;
+    justify-content: space-between;
+  }
+
+  .home__filter__item {
+    flex: 0 0 35%;
+  }
+
+  .home__gallery {
+    grid-area: 2 / 1;
+    grid-template-rows: auto 20.7rem 20.7rem 20.7rem 20.7rem 20.7rem 20.7rem;
+    background-color: white;
+  }
+
+  .home__highlight__media {
+    width: 12rem;
+  }
+
+
+
+  .home__highlight, .home__gallery {
+    border-radius: 0;
+    grid-template-columns: 1fr;
+    padding-inline: 2rem;
+  }
+  .home__highlight__title {
+    grid-area: 1 / 1;
+  }
+  .home__gallery__title {
+    grid-area: 1 / 1;
+  }
+
+  .activity {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .activity__title {
+    grid-area: 1 / 1;
+  }
+
+  .activity__link {
+    height: 20rem;
+  }
+
+  .activity__link:nth-of-type(3) :is( .activity__media__label ) {
+    margin-block-start: 2rem;
+  }
+  .activity__link:nth-of-type(4) :is( .activity__media__label ) {
+    margin-block-start: 2rem;
+  }
+
+  .home__description {
+    padding-inline: 2rem;
+  }
+
+  .footer__navigation {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
 }
