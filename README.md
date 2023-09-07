@@ -31,7 +31,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://cheery-llama-39da43.netlify.app/)
 
 
 ### Built With
@@ -80,6 +80,7 @@ To run this project you must have node installed.
 ## Links
 
 Project Link: [https://github.com/Caelr/oc-p2-booki.git](https://github.com/Caelr/oc-p2-booki.git)
+Live Version: [https://cheery-llama-39da43.netlify.app/](Booki)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
