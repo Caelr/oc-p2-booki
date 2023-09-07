@@ -609,6 +609,7 @@ input[type="search"]::placeholder {
     grid-area: 2 / 1;
     grid-template-rows: auto 20.7rem 20.7rem 20.7rem 20.7rem 20.7rem 20.7rem;
     background-color: white;
+    gap: 1.5rem;
   }
 
   .home__highlight__media {
