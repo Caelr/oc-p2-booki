@@ -24,15 +24,11 @@
   </a>
 </p>
 
-
-
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://cheery-llama-39da43.netlify.app/)
-
 
 ### Built With
 
@@ -40,54 +36,52 @@ This project was built with plain HTML and CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To run this project you must have node installed.
 
 ### Prerequisites
 
-* node
+- node
   ```sh
   node -v
   ```
 
 ### Installation
 
-
 1. Clone the repo
    ```sh
    git clone https://github.com/Caelr/oc-p2-booki.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Start the server
+3. Start the server
    ```sh
    npm run dev
    ```
-5. Build for production
+4. Build for production
    ```sh
    npm run build
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Links
 
 Project Link: [https://github.com/Caelr/oc-p2-booki.git](https://github.com/Caelr/oc-p2-booki.git)
+<br>
 Live Version: [https://cheery-llama-39da43.netlify.app/](Booki)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
