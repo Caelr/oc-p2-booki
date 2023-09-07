@@ -75,7 +75,7 @@ To run this project you must have node installed.
 
 Project Link: [https://github.com/Caelr/oc-p2-booki.git](https://github.com/Caelr/oc-p2-booki.git)
 <br>
-Live Version: [https://cheery-llama-39da43.netlify.app/](Booki)
+Live Version: [Booki](https://cheery-llama-39da43.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
