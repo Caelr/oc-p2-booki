@@ -34,7 +34,6 @@
 
 This project was built with plain HTML and CSS
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -67,7 +66,6 @@ To run this project you must have node installed.
    ```sh
    npm run build
    ```
-   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
@@ -77,7 +75,6 @@ Project Link: [https://github.com/Caelr/oc-p2-booki.git](https://github.com/Cael
 <br>
 Live Version: [Booki](https://cheery-llama-39da43.netlify.app/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
