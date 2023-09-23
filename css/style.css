@@ -6,7 +6,7 @@
   --filter-bg-color: #DEEBFF;
 }
 
-/* Reset ua styles */
+/* Reset styles */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -207,7 +207,7 @@ input[type="search"]::placeholder {
   border-radius: 0 15px 15px 0;
 }
 
-.home__search__button>svg {
+.home__search__button> i {
   display: none;
 }
 
@@ -243,7 +243,7 @@ input[type="search"]::placeholder {
   padding-block: 1.4rem;
 }
 
-.home__filter__item :is(svg, label) {
+.home__filter__item :is(i, label) {
   pointer-events: none;
   z-index: 1;
 }
@@ -273,8 +273,10 @@ input[type="search"]::placeholder {
   margin-block-end: 3.5rem;
 }
 .home__description__icon{
-  width: 2.4rem;
-  height: 2.4rem;
+  padding: 1rem 0.8rem;
+  border-radius: 100px;
+ border: solid 1px grey;
+
 }
 
 .home{
@@ -285,7 +287,6 @@ input[type="search"]::placeholder {
 
 /* Houses */
 
-/* Display grid */
 .home__gallery{
   background-color: var(--main-bg-color);
   border-radius: 15px;
@@ -309,10 +310,11 @@ input[type="search"]::placeholder {
 
 }
 
-.home__gallery__link :is(svg) {
-
+.home__gallery__link :is(.stars) {
+  font-size: 1.6rem;
+  display: flex;
   margin-inline-start: 1rem;
-  margin-block-start: 1rem;
+  margin-block-start: 2rem;
 }
 
 .home__gallery__media{
@@ -373,10 +375,8 @@ input[type="search"]::placeholder {
   row-gap: 0.5rem;
 }
 
-.home__highlight__link :is(svg) {
+.home__highlight__link :is(.stars) {
   align-self: flex-end;
-  width: 6.8rem;
-  height: 1.2rem;
   margin-block-end: 1rem;
 }
 
@@ -583,8 +583,9 @@ input[type="search"]::placeholder {
 
 
 
-  .home__search__button>svg {
+  .home__search__button > i {
     display: block;
+    font-size: 1.6rem;
   }
 
   .home__search :is(input) {
