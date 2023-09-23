@@ -28,8 +28,6 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cheery-llama-39da43.netlify.app/)
-
 ### Built With
 
 This project was built with plain HTML and CSS
